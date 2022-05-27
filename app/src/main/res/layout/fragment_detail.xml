@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+
+        android:id="@+id/detail1"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+    <ImageView
+        android:id="@+id/setailgambar"
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="140dp"
+        android:layout_height="140dp"/>
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/detail2"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/detail3"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/favorite"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="352dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal">
+
+            <TextView
+
+                android:id="@+id/detail4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                android:textSize="22sp"/>
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_detailfavorite"
+        app:tint="@null"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        app:maxImageSize="50dp"
+        app:fabCustomSize= "80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:src="@drawable/ic_fav">
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+
+</LinearLayout>
